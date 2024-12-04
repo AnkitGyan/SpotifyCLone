@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="spotify-container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h2 class="logo">Spotify</h2>
+            <ul class="menu">
+                <li><a href="#"><i class="icon">🏠</i> Home</a></li>
+                <li><a href="#"><i class="icon">🔍</i> Search</a></li>
+                <li><a href="#"><i class="icon">📚</i> Your Library</a></li>
+            </ul>
+            <div class="playlists">
+                <h3>Your Playlists</h3>
+                <ul>
+                    <li><a href="#">🎶 Chill Hits</a></li>
+                    <li><a href="#">🔥 Top 50</a></li>
+                    <li><a href="#">💪 Workout Mix</a></li>
+                    <li><a href="#">🌙 Relax</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="header">
+                <input type="text" placeholder="Search for songs, artists, albums..." class="search-bar">
+            </div>
+            <div class="content">
+                <h1>Welcome to Spotify Clone</h1>
+                <p>Discover and enjoy your favorite tracks!</p>
+                <div class="album-grid">
+                    <!-- Albums -->
+                    <div class="album-card">
+                        <img src="./assets/card1img.jpeg" alt="Album 1">
+                        <h4>Album 1</h4>
+                        <p>Artist 1</p>
+                    </div>
+                    <div class="album-card">
+                        <img src="./assets/card2img.jpeg" alt="Album 2">
+                        <h4>Album 2</h4>
+                        <p>Artist 2</p>
+                    </div>
+                    <div class="album-card">
+                        <img src="./assets/card3img.jpeg" alt="Album 3">
+                        <h4>Album 3</h4>
+                        <p>Artist 3</p>
+                    </div>
+                    <div class="album-card">
+                        <img src="/assets/card3img.jpeg" alt="Album 4">
+                        <h4>Album 4</h4>
+                        <p>Artist 4</p>
+                    </div>
+                    <div class="album-card">
+                        <img src="./assets/card4img.jpeg" alt="Album 5">
+                        <h4>Album 5</h4>
+                        <p>Artist 5</p>
+                    </div>
+                    <div class="album-card">
+                        <img src="./assets/card4img.jpeg" alt="Album 6">
+                        <h4>Album 6</h4>
+                        <p>Artist 6</p>
+                    </div>
+                    <div class="album-card">
+                        <img src="./assets/card5img.jpeg" alt="Album 7">
+                        <h4>Album 7</h4>
+                        <p>Artist 7</p>
+                    </div>
+                    <div class="album-card">
+                        <img src="./assets/card6img.jpeg" alt="Album 8">
+                        <h4>Album 8</h4>
+                        <p>Artist 8</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-content">
+                <div class="song-info">
+                    <p>🎵 Song Name - Artist</p>
+                </div>
+                <div class="controls">
+                    <button>⏮</button>
+                    <button>⏯</button>
+                    <button>⏭</button>
+                </div>
+                <div class="volume">
+                    <label for="volume-slider">🔊</label>
+                    <input type="range" id="volume-slider" min="0" max="100">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
